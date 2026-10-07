@@ -1,0 +1,15 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System - HTML/CSS/JS frontend (Node.js tooling) + Flask + SQLite backend",
+  "private": true,
+  "scripts": {
+    "start": "python app.py",
+    "format": "prettier --write index.html static/css static/js",
+    "lint": "eslint static/js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0"
+  }
+}
